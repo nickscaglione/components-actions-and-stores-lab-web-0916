@@ -4,7 +4,7 @@ import expect from 'expect';
 
 import { createStore } from '../src/store';
 
-import BandInput from '../src/components/band_input_component';
+import BandInput from '../components/band_input_component';
 import bandReducer from '../src/reducers/band_reducer.js';
 
 const store = createStore(bandReducer);
